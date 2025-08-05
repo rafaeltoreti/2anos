@@ -1,0 +1,33 @@
+body{
+    background: rgb(66, 1, 66);
+}
+
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 40%;
+    height: 20%;
+    background-color: rgb(180, 59, 236);
+    color: black;
+    border: none;
+    border-left: 5px solid white;
+    border-radius: 8px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.1);
+}

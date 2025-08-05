@@ -1,0 +1,44 @@
+.quadrado{
+    width: 70%;
+    height: 110%;
+    background-color: rgb(71, 0, 129);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    border: 10px solid rgb(71, 0, 129);
+}
+
+button{
+    padding: 1% 2%;
+    background-color: white;
+    color: rgb(71, 0, 129);
+    display: flex;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    font-size: 100%;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+body{
+    background: linear-gradient(to left, white, rgb(187, 28, 187), white)
+}
+
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+p{
+    text-align: center; 
+    font-size: large;
+}
